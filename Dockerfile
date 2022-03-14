@@ -7,6 +7,7 @@
 # Copy everything from local machine to our server, second dot refers to the directory on the container.
  COPY . .
 # lets build the application
+ RUN npm install react-scripts -g --silent
  RUN npm run build
  
  # # start an application (starting our react server)
