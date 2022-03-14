@@ -9,4 +9,4 @@ services:
       - 3000:3000 
     image: app:react-docker-demo     
     container_name: react_container
-    command: npm start
+    command: yarn start
