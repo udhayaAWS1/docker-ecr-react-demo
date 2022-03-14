@@ -13,7 +13,7 @@
 # lets build the application
  RUN npm install -g npm@latest
  RUN npm install react-scripts -g --silent
- RUN yarn run build
+ RUN npm run build
  
  # # start an application (starting our react server)
  CMD ["npm", "run", "start"]
