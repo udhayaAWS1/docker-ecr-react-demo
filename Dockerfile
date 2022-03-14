@@ -11,8 +11,9 @@
  COPY . .
 
 # lets build the application
- RUN npm install -g npm@latest
- RUN npm install react-scripts -g --silent
+ #RUN npm install -g npm@latest
+ #RUN npm install react-scripts -g --silent
+ RUN npm install
  RUN npm run build
  
  # # start an application (starting our react server)
